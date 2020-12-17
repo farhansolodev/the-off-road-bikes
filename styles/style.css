@@ -1,0 +1,728 @@
+/*
+filename: stylesheet.css
+author: Ahsan Khan
+created: 3/31/2020
+last modified: 3/31/2020 (change date before submission)
+description: refers to index.html
+*/
+
+html, body {
+	height:100%;
+	font-family: Arial, Helvetica, sans-serif;
+  	margin: 0;
+  	padding:0;
+  	background:url(images/home_bg.png); 
+}
+
+.outer_header {
+	position: fixed;
+	width: 100%;
+	padding:10px;
+	top:0;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #e6c300;
+	z-index: 1;
+}
+
+.header {
+	background-color: #333;
+	position: sticky;
+	top:0;
+
+}
+
+.header * {
+	display: inline;
+}
+
+.Left_panel {
+	height: 70px;
+	width: 70px;
+	font: normal 50px Impact, Charcoal, sans-serif; /*h1 shorthand form */
+	vertical-align:middle;
+	color: white;
+}
+
+.Right_panel {
+	float:right;
+	text-decoration: none;
+}
+
+.Navigation {
+	text-transform: uppercase;
+  	letter-spacing: 5px;
+  	font: 18px "lato",sans-serif;
+  	display: inline-block;
+  	text-decoration: none;
+  	padding: 22px 25px;
+}
+
+.active{
+	background-color: grey;
+}
+
+.Navigation a{
+	border-style: solid;
+  	border-color:grey;
+  	background-clip: padding-box;
+  	background-color: grey;
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+}
+.Navigation a:hover {
+	background-color: #ddd;
+	color: black;
+	border-color:black;
+}
+
+#search_bar {
+	padding:6px;
+	margin-top: 8px;
+  	font-size: 15px;
+  	border: none;
+}
+
+.search-icon, .add_cart{
+	padding: 6px 10px;
+ 	margin-top: 8px;
+  	margin-right: 16px;
+  	background: #ddd;
+  	font-size: 15px;
+ 	border: none;
+  	cursor: pointer;
+}
+
+.add_cart {
+  	background: black;
+}
+
+#banner {
+	max-width: 100%; /*max width to allow for responsiveness when screen size reduced */ 
+	padding-top: 90px;
+	margin-bottom:0;
+}
+
+
+#Banner_btn {
+	position: absolute;
+  	top: 70%;
+ 	left: 78.25%;
+ 	transform: translate(-50%, -50%);
+  	background-color: white;
+  	color: black;
+  	font-size: 25px;
+  	padding: 24px 16px 24px 16px;
+  	border: 2px solid grey;
+  	cursor: pointer;
+
+}
+
+#Banner_btn:hover {
+	background-color: #bfbfbf;
+}
+
+h2 {
+	width:100%;
+	margin-top:0;
+	padding-top: 10px;
+	text-align: center;
+	background:url(images/fade.jpg) repeat-x top left; /* Create a blur effect over the heading */ /*image is from lab04 file */
+}
+
+.flex_container {
+	display: flex; /* Used to create the structure of the section */
+	flex-direction: row; /* Make each section flow horizontally */
+}
+
+.flex_container div{
+	margin: 130px;
+	text-align: center;
+	flex: 1;
+}
+
+.flex_container .side_panel {
+	margin-left: 100px;
+	margin-right:0;
+	margin-bottom:0;
+	height:100%;
+	margin-top: 100px;
+	background-color: #343a40;
+	color: white;
+	border: 5px solid #e6c300;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*create a 3D shadow effect around the side panel */
+	border-radius: 4px;
+}
+
+#second_item {
+	margin-right: 200px; 
+}
+
+.side_panel #side_heading {
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 10px;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.footer_bottom div {
+	background-color: #343a40;
+	color: #686868;
+	height: 50px;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	padding-top: 10px;
+	width: 100%;
+}
+
+hr{
+  	color: white;
+  	background-color: white;
+}
+
+#vertical_line {
+	color: red;
+}
+
+#email {
+	width: 130px;
+  	box-sizing: border-box;
+  	border: 2px solid #ccc;
+  	border-radius: 4px;
+  	font-size: 16px;
+  	background-color: white;
+  	color: black;
+  	transition: width 0.4s ease-in-out;
+}
+
+#email:focus {
+	width: 90%; /* animation effect when clicked on the email textarea that increases the width */
+}
+
+.Contact > li {
+	list-style-type: none;
+	font-size: 20px;
+	float:left;
+	padding-left: 10px;
+}
+
+li a{
+	float: right;
+	padding-left: 6px;
+}
+
+#envelope {
+	padding-top:10px;
+	vertical-align: bottom;
+}
+
+#store_date_header {
+	padding-top: 100px;
+	padding-bottom:10px;
+}
+
+.side_panel table {
+	width:100%;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.side_panel td, th {
+	position: relative;
+	border: 1px solid #dddddd;
+  	text-align: center;
+  	padding: 8px;
+  	padding-right:0;
+  	font-size: 16px;
+}
+
+.side_panel th {
+	text-align: center;
+	background-color: #4CAF50;
+}
+
+.side_panel tr:nth-child(even) { /* change the color of the table values with an even position number (a quicker way of changing the color of multiple rows) */
+    background-color: #CCFFCC;
+    color: black;
+}
+
+.side_panel tr:nth-child(odd) {
+    background-color: #b3ffb3;
+    color: black;
+}
+
+.closed {
+	background-color: #001a00;
+	color:white;
+	font-size: 16px;
+}
+
+.bike {
+	width:100%;
+	height:50%;
+	border: 2px solid gold;
+	margin: 10px;
+}
+
+.add_to_cart {
+	border: none;
+  	outline: 0;
+  	padding: 12px;
+  	color: white;
+  	background-color: #000;
+  	text-align: center;
+  	cursor: pointer; /*changes the cursor to a pointer when hovered over the cart icon */
+  	width: 100%;
+  	font-size: 18px;
+  	margin-top: 10px;
+}
+
+.add_to_cart:hover {
+	opacity: 0.7; 
+}
+
+.price {
+	color:grey;
+	font-size:22px;
+}
+
+.product_name {
+	font-size: 32px;
+}
+
+.flex_container div {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.support_email span a {
+	color: white;
+	margin-left: 5px;
+}
+
+#email_btn {
+	margin-top: 10px;
+	color: black;
+	font-weight: bold;
+	text-align: center; 
+}
+
+.glyphicon glyphicon-earphone {
+	height: 1em;
+	width: 1em;
+}
+
+.glyphicon glyphicon-envelope {
+	height: 0.5em;
+	width: 1em;
+}
+
+/* Product Page */
+
+.product_flex {
+	display: flex;
+	flex-direction: row;
+	margin-top: 115px;
+}
+
+.product_images {
+	display: inline-block;
+}
+
+.product_flex div {
+	width: 300px;
+	margin: 100px;
+	margin-left: 300px;
+}
+
+.product_flex .product_images {
+	margin-top: 140px;
+} 
+
+.product_flex .Product_Info {
+	margin-left: 100px;
+	margin-right: 10px;
+} 
+
+.bike {
+	height:auto;
+	width:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: transform .2s; /*how long the animation will take */
+}
+
+.bike:hover {
+	transform: scale(1.2); /*increases size of the image when mouse hovers over it */
+}
+
+.quantity {
+	display:inline;
+
+}
+
+.table_flex{
+	display: flex;
+	flex-direction: row;
+	flex: 1; /*only have one flex section with multiple divs */
+}
+
+.product_description{
+	width:1000px;
+	margin: 20px;
+}
+
+th, td {
+  border-bottom: 1px dotted #ddd;
+}
+
+.info_title {
+	color: #cc8500;
+	margin: 15px;
+}
+
+.caption {
+	margin: 10px;
+	font: 16px arial, sans-serif;
+	color: #bfbfbf;
+	border-bottom: 1px solid grey;
+}
+
+aside {
+  	float:right; 
+	width: 25%; 
+  	top: 0;
+  	bottom: 0;
+  	margin-left: 200px;
+  	background-color: #343a40;
+  	color: white;
+  	border-left: 5px solid #e6c300;
+  	border-bottom: 5px solid #e6c300;
+
+}
+
+.side_panel { 
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.product_title {
+	font: normal 36px Fantasy; /*h1 demonstrated using the shorthand form */
+	margin-top: 5px;
+}
+
+.new {
+	border: 1px double green;
+	background-color: green;
+	color:white;
+	width:13%;
+	font-size: 15px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bike_information {
+	line-height: 2;
+	margin: 10px;
+	padding: 10px;
+	color: #4d4d4d;
+	height: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+ol li {
+	font-size: 14px;
+}
+
+ol {
+	float: left;
+	margin-right: 50px;
+	display: block; 
+	list-style-type: upper-roman;
+
+}
+
+.similar_flex {
+	display:flex;
+	flex-direction: row;
+	margin: 20px;
+	width: 100%;
+	padding: 5px;
+}
+
+.similar_flex div {
+	margin-right: 70px;
+	border: 2px dotted #b39800;
+	transition: background-color 0.5s ease;
+}
+
+.similar_bikes {
+	height:150px;
+	width:150px;
+	padding: 10px;
+}
+
+.bike_name {
+	padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom:0;
+    width: inherit;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid grey;
+    font-size: 15px;
+}
+
+.similar_flex div:hover {
+	background-color: #e6e6e6;
+	cursor: pointer;
+}
+
+.bike_price {
+	text-align: center;
+	font-family: Fantasy;
+	margin-top: 5px;
+	transition: font-size 0.5s ease;
+}
+
+.bike_price:hover {
+	font-size: 18px;
+	color: #998200;
+}
+
+.select_color option[value="0"] { /*changes the color of each select item based on the value */
+  background-color: grey;
+  color: white;
+}
+
+.select_color option[value="1"] {
+  background-color: black;
+  color: white;
+}
+
+.select_color option[value="2"] {
+  background-color: red;
+  color: white;
+}
+
+.select_color option[value="3"] {
+  background-color: green;
+  color: white;
+}
+
+.select_color option[value="4"] {
+  background-color: blue;
+  color: white;
+}
+
+/* Enquiry CSS */
+
+.enquiry_flex .enquiry_bg{ 
+	min-height: 100%;
+	width: 650px;
+	object-fit: cover;
+	margin-right: 20px;
+	border-right: 2px solid gold;
+}
+
+.enquiry_flex {
+	display: flex;
+	flex-direction: row; 
+}
+.enquiry_heading {
+	margin-top: 50px;
+	font-family: fantasy;
+}
+
+.radio_options {
+	display: inline-block;
+	width: 20px;
+}
+
+.submission {
+	margin-bottom: 10px;
+}
+
+.enquiry_flex .enquiry_info {
+	margin-top: 100px;
+}
+
+.enquiry_info legend {
+	color: #cc8500;
+}
+
+
+/* breadcrumbs style */
+
+.breadcrumb {
+	padding: 10px 16px;
+	margin-left: 0;
+	list-style: none;
+	position: absolute;
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 16px;
+}
+
+.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  color: #cc8500;
+  text-decoration: underline;
+}
+
+/* about.html css */
+
+.my_photo {
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 80px;
+	margin-bottom: 300px;
+	border: 20px double gold;
+	float: right;
+}
+
+.my_photo:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.personal_information {
+	margin-top: 300px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.personal_information dt{
+	font-size: 20px;
+	color: #cc8500;
+
+}
+
+.personal_information dd {
+	font-size: 20px;
+}
+
+.timetable {
+	margin-top: 250px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 250px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.timetable td{
+	position: relative;
+	border: 1px solid black;
+  	text-align: center;
+  	padding: 4px;
+  	font-size: 16px;
+  	font-style: italic;
+}
+
+.timetable th {
+	text-align: center;
+	background-color: #4CAF50;
+	font-weight: bold;
+}
+
+.timetable tr:nth-child(even) { /* change the color of the table rows that are positioned with even values (a quicker way of changing the color of the rows) */
+    background-color: #CCFFCC;
+    color: black;
+}
+
+.timetable tr:nth-child(odd) {
+    background-color: #8DD46A;
+    color: black;
+}
+
+.timetable_heading {
+	font-family: fantasy;
+	margin-top: 150px;
+	height: 100px;
+	margin-left: 1330px;
+	float: right;
+	position: absolute;
+}
+
+#info_area {
+	border-right: 2px dotted gold;
+}
+
+/*enhancement page */
+
+.enhancement_info {
+	margin: 10px;
+	font: normal 21px sans-serif;
+}
+
+/*payment page */
+
+.bike_info {
+	margin-top: 210px;
+	margin-left: 50px;
+}
+
+#full_name {
+	display: inline;
+}
+
+#email_address {
+	display: inline; 
+}
+
+.product_images {
+	margin-left: 300px;
+}
+
+#bikeprice_before, #bikeprice {
+	display: inline;
+	text-align: center;
+	font: normal 50px Impact, Charcoal, sans-serif;
+}
+
+.err {
+	color: red;
+}
+
+.managerTable, .receiptTable {
+	border-collapse:collapse;
+	margin: 20px;
+} 
+
+.managerTable, .managerTable th,.managerTable td,
+.receiptTable, .receiptTable th,.receiptTable td {
+	border: solid 1px black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.receiptTable th {text-align: left;}
+
+.manager_heading {
+	margin-top: 100px;
+	font-family: fantasy;
+	margin-left: 20px;
+}
+
+.search_heading {
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+#querySearchBtn {
+	margin-bottom: 50px;
+}
+
+#receipt_info {
+	margin-bottom: 50px;
+	margin-left: 20px; 
+}
