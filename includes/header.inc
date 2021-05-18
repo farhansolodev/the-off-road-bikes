@@ -10,12 +10,6 @@
                     <a href="./enquire.php">Purchase</a>
                     <a href="./manager.php">Manager</a>
                 </nav>
-                <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
-                    <p class="search_bar">
-                        <input placeholder="Search here..." type="text" name="search" id="search_bar" size="20"/>
-                        <button class="search-icon"><img src="images/search-icon.png" alt="search-icon" height="14" width="20"></button> <!-- https://www.hiclipart.com/free-transparent-background-png-clipart-qyxpe-->
-                    </p>
-                </form>
                 <form action="./product.php">
                 <button class="add_cart">
 			<a href='./enquire.php'>
