@@ -21,7 +21,7 @@
     ?>
     <div class="enquiry_flex">
         <div class="enquiry_info">
-            <h1 class="manager_heading">Manager Page</h1>
+            <h1 class="manager_heading">Admin Page</h1>
             <?php
 
                 require_once "settings.php";
