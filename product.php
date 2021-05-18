@@ -17,8 +17,8 @@
 		include("./includes/header.inc");  
 	?>
 <ul class="breadcrumb">
-  	<li><a href="./index.php">Index</a></li>
-  	<li><a href="./product.php">Product</a></li>
+  	<li><a href="./index.php">Home</a></li>
+  	<li><a href="./product.php">Products</a></li>
 </ul>
 
 <section class="product_flex"> 
