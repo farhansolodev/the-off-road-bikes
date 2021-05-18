@@ -20,7 +20,7 @@
 	?>
     <div>
 	<a href="product.php">
-        	<img id="banner" src="images/banner.png" alt="Banner">
+        <img id="banner" src="images/banner.png" alt="Banner">
 	</a>
     </div>
 
