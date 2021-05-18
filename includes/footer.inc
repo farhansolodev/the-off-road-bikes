@@ -1,5 +1,5 @@
 <footer class="footer_bottom">
 	<div>
-		<p><sup>®</sup> theoffroad.com</p>
+	<p>https://the-off-road-bikes.herokuapp.com/</p>
 	</div>
 </footer>
