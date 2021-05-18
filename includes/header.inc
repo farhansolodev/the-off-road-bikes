@@ -7,7 +7,7 @@
                 <nav class="Navigation">
                     <a class ="active" href="./index.php">Home</a> 
                     <a href="./product.php">Products</a>
-                    <a href="./enquire.php">Support</a>
+                    <a href="./enquire.php">Purchase</a>
                     <a href="./manager.php">Manager</a>
                 </nav>
                 <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
@@ -17,7 +17,11 @@
                     </p>
                 </form>
                 <form action="./product.php">
-                <button class="add_cart"><img src="images/cart-icon.png" alt="cart-icon"></button> <!-- https://sciconbags.com/media/cart-icon-header.png -->
+                <button class="add_cart">
+			<a href='./enquire.php'>
+			<img src="images/cart-icon.png" alt="cart-icon">
+			</a>
+		</button> <!-- https://sciconbags.com/media/cart-icon-header.png -->
                 </form> 
             </div>
         </header>
