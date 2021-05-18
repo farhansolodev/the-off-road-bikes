@@ -1,5 +1,5 @@
 <footer class="footer_bottom">
 	<div>
-	<p>https://the-off-road-bikes.herokuapp.com/</p>
+	<p>the-off-road-bikes.herokuapp.com/</p>
 	</div>
 </footer>
