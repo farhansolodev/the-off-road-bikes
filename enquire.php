@@ -131,8 +131,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Describe Your Concern</legend>
-                    <textarea placeholder="Write the description of your question/issue here" id="description"
+                    <legend>Additional information</legend>
+                    <textarea placeholder="Add any additional comments about your purchase if required" id="description"
                         name="description" rows="7" cols="40" required="required"></textarea>
                 </fieldset>
                 <fieldset>
