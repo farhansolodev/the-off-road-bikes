@@ -27,14 +27,13 @@
         </div>
         <div class="enquiry_info">
             <ul class="breadcrumb">
-                <li><a href="index.php">Index</a></li>
-                <li><a href="product.php">Product</a></li>
-                <li><a href="enquire.php">Enquiry</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="product.php">Products</a></li>
+                <li><a href="enquire.php">Purchase</a></li>
             </ul>
 
-            <h1 class="enquiry_heading">Product Enquiry </h1>
-            <p> If you have any enquiries regarding a specific product or your order, please enter your personal
-                information and we will get back to you soon </p>
+            <h1 class="enquiry_heading">Purchase</h1>
+            <p> Please enter your personal information. If you have any enquiries regarding a specific product or your order, we will get back to you soon</p>
             <form id="enquireForm" method="post" action="payment.php" novalidate="novalidate">
                 <fieldset>
                     <legend>Personal Information</legend>
