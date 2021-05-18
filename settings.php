@@ -1,6 +1,7 @@
 <?php
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
     //database connection variables
-    $host = getenv("host");
-    $user = getenv("user");
-    $pwd = getenv("pass");
-    $sql_db = getenv("db");
+    $host = $url["host"];
+    $user = $url["user"];
+    $pwd = $url["pass"];
+    $sql_db = substr($url["path"], 1);
