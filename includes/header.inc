@@ -8,7 +8,7 @@
                     <a class ="active" href="./index.php">Home</a> 
                     <a href="./product.php">Products</a>
                     <a href="./enquire.php">Purchase</a>
-                    <a href="./manager.php">Manager</a>
+                    <a href="./manager.php">Admin</a>
                 </nav>
                 <form action="./enquire.php">
                 <button class="add_cart">
