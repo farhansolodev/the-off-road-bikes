@@ -7,7 +7,6 @@
                 <nav class="Navigation">
                     <a class ="active" href="./index.php">Home</a> 
                     <a href="./product.php">Products</a>
-                    <a href="./about.php">About-Us</a>
                     <a href="./enquire.php">Support</a>
                     <a href="./manager.php">Manager</a>
                 </nav>
