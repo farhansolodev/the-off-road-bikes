@@ -34,7 +34,7 @@
                         foreach($chkarr as $id){
                             $deleteResult = mysqli_query($conn,"DELETE from orders WHERE order_id=$id and order_status='PENDING'"); //Deletes the checked row only if it is PENDING
                             if (!$deleteResult){
-                                echo "<p>     Orders table doesn't exist or delete operation was unsuccessful.</p>";
+                                echo "      <p>Orders table doesn't exist or delete operation was unsuccessful.</p>";
                             }
                         }
                     } else {
@@ -167,7 +167,6 @@
                 <input type="checkbox" id="pending" name="pen" />
             </p>
             <input id="querySearchBtn" type="submit" value="Search">
-            <p>Enhancements for this page can be found<a href="enhancements3.php"> here</a></p>
         </form>
     </div>
 
