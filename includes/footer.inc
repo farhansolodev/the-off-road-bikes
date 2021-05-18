@@ -1,5 +1,5 @@
 <footer class="footer_bottom">
 	<div>
-		<p><sup>®</sup> theoffroad.com | Designed by Ahsan Khan</p>
+		<p><sup>Â®</sup> theoffroad.com</p>
 	</div>
 </footer>
