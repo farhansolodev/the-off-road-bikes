@@ -19,10 +19,9 @@
      	include("./includes/header.inc");
 	?>
     <div>
-        <form action="product.php">
-            <button id="Banner_btn"><strong>SEE MTB MODELS</strong></button>
-        </form>
-        <img id="banner" src="images/banner.png" alt="Banner">
+	<a href="product.php">
+        	<img id="banner" src="images/banner.png" alt="Banner">
+	</a>
     </div>
 
     <h2><strong>TORB</strong><sup>®</sup><span id="vertical_line"> | </span> NEW ARRIVALS </h2>
