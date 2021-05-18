@@ -1,6 +1,7 @@
 <?php
-    //storing database connection variables
-    $host = "feenix-mariadb.swin.edu.au";
-    $user = "s102890193";
-    $pwd = "100699";
-    $sql_db = "s102890193_db";
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+    //database connection variables
+    $host = $url["host"];
+    $user = $url["user"];
+    $pwd = $url["pass"];
+    $sql_db = substr($url["path"], 1);
