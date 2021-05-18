@@ -82,7 +82,7 @@
                 <fieldset>
                     <legend>Contact Information</legend>
                     <p><label for="phone_number">Phone Number: </label>
-                        <input type="text" placeholder="0416111111" name="phone_number" pattern="^[0-9]{10}$"
+                        <input type="text" name="phone_number" pattern="^[0-9]{10}$"
                             id="phone_number" size="15" required="required" />
                     </p>
 
