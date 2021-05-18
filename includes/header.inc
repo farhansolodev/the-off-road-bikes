@@ -10,11 +10,9 @@
                     <a href="./enquire.php">Purchase</a>
                     <a href="./manager.php">Manager</a>
                 </nav>
-                <form action="./product.php">
+                <form action="./enquire.php">
                 <button class="add_cart">
-			<a href='./enquire.php'>
 			<img src="images/cart-icon.png" alt="cart-icon">
-			</a>
 		</button> <!-- https://sciconbags.com/media/cart-icon-header.png -->
                 </form> 
             </div>
