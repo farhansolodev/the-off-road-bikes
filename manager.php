@@ -169,10 +169,6 @@
             <input id="querySearchBtn" type="submit" value="Search">
         </form>
     </div>
-
-    <?php
-    include("./includes/footer.inc");
-    ?>
 </body>
 
 </html>
